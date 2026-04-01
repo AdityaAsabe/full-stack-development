@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: skyblue;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: gold;
+    background-color: gray;
+}
+
+ol{
+    text-align: center;
+    color: bisque;
+    background-color: hsl(189, 66%, 54%);
+}
