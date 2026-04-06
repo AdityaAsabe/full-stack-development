@@ -1,0 +1,7 @@
+div {
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    border-radius: 50%;
+    align-items: center;
+}
