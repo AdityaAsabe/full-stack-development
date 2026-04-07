@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Practice</title>
+  <style>
+    body {
+      height: 2000px;
+      margin: 0;
+    }
+
+    .navbar {
+      height: 60px;
+      background: black;
+      color: white;
+      position: fixed;
+      width: 100%;
+    }
+
+    .container {
+      margin-top: 70px;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 120px;
+      height: 400px;
+      background: gray;
+      position: sticky;
+      top: 70px;
+    }
+
+    .content {
+      flex: 1;
+      height: 600px;
+      background: lightblue;
+      position: relative;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="navbar">Navbar</div>
+
+<div class="container">
+  <div class="sidebar"></div>
+  <div class="content">
+    <div class="circle"></div>
+  </div>
+</div>
+
+</body>
+</html>
